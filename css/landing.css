@@ -1,0 +1,232 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+}
+/* NAV BAR START */
+header{
+    width: 100%;
+    min-height: 12vh;
+    display: flex;
+    align-items: center;
+}
+nav{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+    display: flex;
+    height: 100%;
+    column-gap: 32px;
+}
+.link-list{
+    min-height: 100%;
+}
+.link-list ul{
+    display: flex;
+    height: 100%;
+    column-gap: 40px;
+    align-items: center;
+}
+.link-list ul li{
+    list-style: none;
+    font-weight: 600;
+}
+.link-contact{
+    min-height: 100%;
+    display: flex;
+    padding-left: 32px;
+    column-gap: 14px;
+    border-left: 3px solid #dbd3d3;
+}
+/* NAV BAR END */
+
+#sec1{
+    width: 100%;
+    height:100vh;
+    
+}
+.hero-sec{
+    height: 100%;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+.hero-text{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-text h1{
+    font-family: Manrope;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 5rem; /* 131.25% */
+    letter-spacing: -0.12rem;
+}
+.hero-image{
+    width: 50%;
+    height: inherit;
+    position: relative;
+    background: url("../img/sec1-img.png")
+    no-repeat center center/cover;
+}
+.hero-btn{
+    padding: 1rem 2.5rem;
+    /* align-items: flex-start; */
+    gap: 0.625rem;
+    border-radius: 0.75rem;
+    background: #FF6433;
+    color: #fff;
+    margin: 20px 0;
+    border-style: none;
+}
+.hero-timer{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+.timer-text1{
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #939191;
+}
+.timer-text2{
+    font-family: Manrope;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%;
+}
+.image-tag_a{
+    background: url("../img/Service.png")
+    no-repeat center center/cover;
+    width: 100%;
+    height:180px;
+    position: absolute;
+    left: -30%;
+    top: 50px;
+}
+.image-tag_b{
+    background: url("../img/Rating.png")
+    no-repeat center center/cover;
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 100px;
+    right: 20px;
+}
+
+/* End HERO SECTION */
+/* SECTION 2 */
+#sec2{
+    width: 100%;
+    min-height: 120vh;
+    display: flex;
+    background: #E2E6E9;
+}
+.sec2-cover{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    margin: auto;
+
+
+}
+.sec2-text{
+    width: 50%;
+    height: 100%;
+}
+.sec2-form{
+    width: 50%;
+    height: 100%;
+}
+.sec2-text_inner h1{
+    font-family: Manrope;
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.sec2-text_inner{
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 1rem;
+}
+.sec2-icon{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+}
+.sec2-icon img{
+
+}
+.sec2-icon_text h3{
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.25rem;
+    letter-spacing: -0.045rem;
+}
+.sec2-icon_text p{
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem;
+}
+.sec2-text_link_a a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+    text-decoration: none;
+    color: #000;
+    
+}
+.sec2-text_inner_in p{
+    width: 70%;
+}
+.sec2-text_inner_link .sec2-icon{
+    visibility: hidden;
+} 
+.sec2-form_text h1{
+    font-family: Manrope;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    letter-spacing: -0.09rem;
+    margin-bottom: 3rem;
+}
+.sec2form_form form input{
+    display: block;
+    height: 4rem;
+    width: 100%;
+    padding: 0 1rem;
+    border: none;
+    margin-bottom: 5px;
+}
