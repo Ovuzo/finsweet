@@ -13,7 +13,7 @@ main{
     margin: auto;
     height: 80vh;
     display: flex;
-    background: peachpuff;
+    background: #fff;
 }
 .container2{
     width: 80%;
@@ -22,6 +22,13 @@ main{
     display: flex;
     flex-direction: column;
     background: #F2F2F2;
+}
+.b{
+    border: 2px solid black;
+}
+.active{
+    background-color: #FF6433;
+    color: #fff;
 }
 .m-b{
     margin-bottom: 1rem;
@@ -327,14 +334,21 @@ nav{
     margin: auto;
 }
 .sec4-grid{
-    width: 12rem;
-    height: 8rem;
+    width: 9rem;
+    height: 6rem;
     background:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .sec4-div2{
     width: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 2px;
-    
+    gap: 2px 2px;
+    margin: auto;
+}
+.active{
+    background-color: #FF6433;
+    color: #fff;
 }
