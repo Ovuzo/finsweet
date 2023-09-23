@@ -28,6 +28,9 @@ main{
 .b{
     border: 2px solid black;
 }
+.p{
+    font-family:Manrope;
+}
 .active{
     background-color: #FF6433;
     color: #fff;
@@ -396,13 +399,13 @@ nav{
 }
 .sec5-img1{
     height: 100%;
-    background: url("/img/sec5-img1.png")
+    background: url("../img/sec5-img1.png")
     no-repeat center center/cover;
     left:  0;
 }
 .sec5-img2{
     height: 100%;
-    background: url("/img/sec5-img2.png")
+    background: url("../img/sec5-img2.png")
     no-repeat center center/cover;
 }
 .sec5-card{
