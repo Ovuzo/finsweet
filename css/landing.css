@@ -124,6 +124,9 @@ header{
     min-height: 12vh;
     display: flex;
     align-items: center;
+    position: fixed;
+    z-index: 20;
+    background: #fff;
 }
 nav{
     width: 80%;
