@@ -10,6 +10,10 @@ main{
     width: 100%;
     min-height: 100vh;
 }
+a{
+    text-decoration: none;
+    color: #000;
+}
 .container{
     width: 80%;
     margin: auto;
@@ -188,11 +192,9 @@ nav{
 }
 .hero-text h1{
     font-family: Manrope;
-    font-size: 4rem;
     font-style: normal;
     font-weight: 800;
-    line-height: 5rem; /* 131.25% */
-    letter-spacing: -0.12rem;
+    line-height: 5rem; /* 131.25% */  
 }
 .hero-image{
     width: 50%;
